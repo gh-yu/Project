@@ -157,9 +157,9 @@ CODEUS 그룹웨어
 ## 2.1. 기획
 - 프로젝트 주제 선정
 - 구현 목표 설정
-- 요구사항 정의서 작성
+- 요구사항 정의서 작성<br>
  <a href="file/요구사항 정의서.pdf"> 📄 요구사항 정의서.pdf</a>
-- 단위 업무 정의서 작성
+- 단위 업무 정의서 작성<br>
  <a href="file/단위 업무 정의서.pdf"> 📄 단위 업무 정의서.pdf</a>
 <br>
 
@@ -167,15 +167,15 @@ CODEUS 그룹웨어
 - 유스케이스 다이어그램 작성
    <img src ='file/유스케이스 다이어그램1.png'>
    <img src ='file/유스케이스 다이어그램2.png'>   
-- Figma를 이용한 스토리보드 작성
+- Figma를 이용한 스토리보드 작성<br>
  <a href="file/스토리보드.pdf"> 📄 스토리보드.pdf</a>
 <br><br>
 
 ## 2.3. DB 설계
 - ERD 작성
    ![CODEUS ERD](https://user-images.githubusercontent.com/78662802/152368500-53cfe6c6-657f-4957-980d-68edb7c8f51a.png)
-- 테이블 정의서 작성
- <a href="file/테이블 정의서.pdf"> 📄 테이블 정의서.pdf</a>
+- 테이블 정의서 작성<br>
+   <a href="file/테이블 정의서.pdf"> 📄 테이블 정의서.pdf</a>
 
 <br><br>
 
