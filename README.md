@@ -20,5 +20,5 @@
    [🔗 설명 및 시연 바로가기](https://github.com/gh-yu/Project/tree/main/Final-CODEUS/README.md)
 ## 2.3. Semi-HOBBYIST
 - `팀프로젝트` HOBBYIST : 온라인 원데이 클래스 제공 플랫폼 ( Servelt & JSP 프로젝트 )
--  [🔗 프로젝트 저장소 바로가기](https://github.com/gh-yu/HOBBYIST) <br>    
+-  [🔗 프로젝트 저장소 바로가기](https://github.com/gh-yu/HOBBYIST)
    [🔗 설명 및 시연 바로가기](https://github.com/gh-yu/Project/tree/main/Semi-HOBBYIST/README.md)
