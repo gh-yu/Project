@@ -203,30 +203,58 @@ CODEUS 그룹웨어
 <br>
 
 #### 3.1.2. 자료실 조회
-<img src ='file/자료실.png' width=100%>
+<img src ='file/자료실-조회.gif' width=100%>
 
 <br><br><br><br>
 
 #### 3.1.3. 파일 업로드
+<img src ='file/자료실-파일 업로드.gif' width=100%>
 
 <br><br><br><br>
 
 #### 3.1.4. 파일 및 폴더 이동
+<img src ='file/자료실-파일 및 폴더 이동.gif' width=100%>
 
 <br><br><br><br>
 
 #### 3.1.5. 파일 및 폴더 삭제
+<img src ='file/자료실-파일 및 폴더 삭제.gif' width=100%>
 
 <br><br><br><br>
 
-#### 3.1.6. 자료실 총 용량 수정
+#### 3.1.6. 새 폴더 생성 및 이름 변경
+<img src ='file/자료실-폴더 생성 및 이름 수정.gif' width=100%>
+
+<br><br><br><br>
+
+#### 3.1.7. 자료실 총 용량 수정
+<img src ='file/자료실-총 용량 수정.gif' width=100%>
 
 <br><br><br><br>
 
 ## 3.2. 공지사항 게시판
 #### 3.2.1. 구현 코드
 
-<br><br><br><br>
+  - Backend
+      - controller
+        - [NoticeBoardController.java](https://github.com/CODEUS-Groupware/CODEUS-Groupware/blob/main/CODEUS/src/main/java/com/codeusgroup/codeus/noticeBoard/controller/NoticeBoardController.java)
+      - model
+        - [NoticeBoardServiceImpl.java](https://github.com/CODEUS-Groupware/CODEUS-Groupware/blob/main/CODEUS/src/main/java/com/codeusgroup/codeus/noticeBoard/model/service/NoticeBoardServiceImpl.java)      
+        - [NoticeBoardDAO.java](https://github.com/CODEUS-Groupware/CODEUS-Groupware/blob/main/CODEUS/src/main/java/com/codeusgroup/codeus/noticeBoard/model/dao/NoticeBoardDAO.java)
+        - [NoticeBoard.java](https://github.com/CODEUS-Groupware/CODEUS-Groupware/blob/main/CODEUS/src/main/java/com/codeusgroup/codeus/noticeBoard/model/vo/NoticeBoard.java)
+        - [NoticeBoardReply.java](https://github.com/CODEUS-Groupware/CODEUS-Groupware/blob/main/CODEUS/src/main/java/com/codeusgroup/codeus/noticeBoard/model/vo/NoticeBoardReply.java)          
+        - [NoticeBoardFile.java](https://github.com/CODEUS-Groupware/CODEUS-Groupware/blob/main/CODEUS/src/main/java/com/codeusgroup/codeus/noticeBoard/model/vo/NoticeBoardFile.java)        
+      - mapper
+        - [noticeBoard-mapper.xml](https://github.com/CODEUS-Groupware/CODEUS-Groupware/blob/main/CODEUS/src/main/resources/mappers/noticeBoard-mapper.xml)
+        
+   - Frontend
+      - [noticeBoardList.jsp](https://github.com/CODEUS-Groupware/CODEUS-Groupware/blob/main/CODEUS/src/main/webapp/WEB-INF/views/noticeBoard/noticeBoardList.jsp)
+      - [noticeBoardDetail.jsp](https://github.com/CODEUS-Groupware/CODEUS-Groupware/blob/main/CODEUS/src/main/webapp/WEB-INF/views/noticeBoard/noticeBoardDetail.jsp)      
+      - [noticeBoardInsertForm.jsp](https://github.com/CODEUS-Groupware/CODEUS-Groupware/blob/main/CODEUS/src/main/webapp/WEB-INF/views/noticeBoard/noticeBoardInsertForm.jsp)      
+      - [noticeBoardEditForm.jsp](https://github.com/CODEUS-Groupware/CODEUS-Groupware/blob/main/CODEUS/src/main/webapp/WEB-INF/views/noticeBoard/noticeBoardEditForm.jsp)   
+
+
+<br>
 
 #### 3.2.2. 공지사항 목록(검색)
 <img src ='file/공지사항 목록.png' width=100%>
@@ -251,7 +279,21 @@ CODEUS 그룹웨어
 ## 3.3. 관리자 페이지 - 부서 관리
 #### 3.3.1. 구현 코드
 
-<br><br><br><br>
+  - Backend
+      - controller
+        - [AdminController.java](https://github.com/CODEUS-Groupware/CODEUS-Groupware/blob/main/CODEUS/src/main/java/com/codeusgroup/codeus/admin/controller/AdminController.java)
+      - model
+        - [AdminServiceImpl.java](https://github.com/CODEUS-Groupware/CODEUS-Groupware/blob/main/CODEUS/src/main/java/com/codeusgroup/codeus/admin/model/service/AdminServiceImpl.java)      
+        - [AdmindDAO.java](https://github.com/CODEUS-Groupware/CODEUS-Groupware/blob/main/CODEUS/src/main/java/com/codeusgroup/codeus/admin/model/dao/AdminDAO.java)
+        - [Department.java](https://github.com/CODEUS-Groupware/CODEUS-Groupware/blob/main/CODEUS/src/main/java/com/codeusgroup/codeus/admin/model/vo/Department.java)  
+      - mapper
+        - [admin-mapper.xml](https://github.com/CODEUS-Groupware/CODEUS-Groupware/blob/main/CODEUS/src/main/resources/mappers/admin-mapper.xml)
+        
+   - Frontend
+      - [deptList.jsp](https://github.com/CODEUS-Groupware/CODEUS-Groupware/blob/main/CODEUS/src/main/webapp/WEB-INF/views/admin/deptList.jsp)
+
+
+<br>
 
 #### 3.3.2. 조직도 조회    
 <img src ='file/부서관리-조직도.png' width=100%>
@@ -271,6 +313,7 @@ CODEUS 그룹웨어
 
 ## 3.4. 관리자 페이지 - 사원 관리
 <img src ='file/사원 관리.png' width=100%>
+<img src ='file/사원 관리-상세.png' width=100%>
 
 <br><br><br><br>
 
@@ -329,9 +372,10 @@ CODEUS 그룹웨어
 
 
 ## 3.14. 에러페이지
+<img src ='file/403에러.gif' width=100%>
+- 관리자 권한이 없는 사원이 관리자 페이지에 접근시 403 Forbidden에러 발생하며 에러페이지로 이동
 
-
-<br><br>
+<br><br><br><br>
 
 # 4. 코드 리뷰
 
